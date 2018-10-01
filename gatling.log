@@ -1,0 +1,119 @@
+11:10:27.515 [WARN ] o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+11:10:27.522 [WARN ] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+11:10:27.533 [WARN ] c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+11:10:29.323 [INFO ] i.g.h.a.HttpEngine - Start warm up
+11:10:29.615 [INFO ] i.g.h.a.HttpEngine - Warm up done
+11:10:31.006 [TRACE] i.g.h.a.ResponseProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+TX22_DocStore_GetDocumentBinaryByDocumentID: OK 
+=========================
+Session:
+Session(Get Document Binary by Document ID,1,Map(gatling.http.cache.dns -> io.gatling.http.resolver.ShuffleJdkNameResolver@4e92cd30, 348ed3f1-4b1d-453e-8141-12e02215391f -> 0, timestamp.348ed3f1-4b1d-453e-8141-12e02215391f -> 1538388629820, id -> eabac5d2-5203-405b-883c-b525e3c2ed6c),1538388629813,0,OK,List(ExitAsapLoopBlock(348ed3f1-4b1d-453e-8141-12e02215391f,io.gatling.core.session.package$RichExpression$$$Lambda$396/1070319462@3288551b,io.gatling.core.action.Exit@503e60eb)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$458/681088021@121313b)
+=========================
+HTTP request:
+GET https://dm-store-sprod.service.core-compute-sprod.internal/documents/eabac5d2-5203-405b-883c-b525e3c2ed6c/binary
+headers=
+Accept: application/json
+ServiceAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjY2RfZ3ciLCJleHAiOjE1Mzg0MDMwMjh9.SzEIAoYWjukQehf6rihNNjWLZ28xOmXF5yXAZ_Ny9PIDubdHcndrF2VbQmZbtf5PJvRv612oErD3xa1Thlhbfw
+Content-Type: application/json
+user-roles: caseworker
+Host: dm-store-sprod.service.core-compute-sprod.internal
+proxy=org.asynchttpclient.proxy.ProxyServer@30086b7f
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Content-Length: 2411986
+Content-Type: application/pdf
+Request-Context: appId=cid-v1:8a86fa07-04d8-41f1-9bbd-589eafd37e43
+X-Application-Context: dm-store:dev:6713
+OriginalFileName: 2MB-c.pdf
+Content-Disposition: fileName="2MB-c.pdf"
+data-source: contentURI
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Powered-By: ASP.NET
+Date: Mon, 01 Oct 2018 10:10:29 GMT
+
+body=
+<<<BINARY CONTENT>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:10:36.908 [TRACE] i.g.h.a.ResponseProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+TX22_DocStore_GetDocumentBinaryByDocumentID: OK 
+=========================
+Session:
+Session(Get Document Binary by Document ID,2,Map(gatling.http.cache.dns -> io.gatling.http.resolver.ShuffleJdkNameResolver@35384438, 348ed3f1-4b1d-453e-8141-12e02215391f -> 0, timestamp.348ed3f1-4b1d-453e-8141-12e02215391f -> 1538388635823, id -> e10ed9ed-b3c5-47d3-90ce-ac9c94fc83e8),1538388635823,0,OK,List(ExitAsapLoopBlock(348ed3f1-4b1d-453e-8141-12e02215391f,io.gatling.core.session.package$RichExpression$$$Lambda$396/1070319462@3288551b,io.gatling.core.action.Exit@503e60eb)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$458/681088021@121313b)
+=========================
+HTTP request:
+GET https://dm-store-sprod.service.core-compute-sprod.internal/documents/e10ed9ed-b3c5-47d3-90ce-ac9c94fc83e8/binary
+headers=
+Accept: application/json
+ServiceAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjY2RfZ3ciLCJleHAiOjE1Mzg0MDMwMjh9.SzEIAoYWjukQehf6rihNNjWLZ28xOmXF5yXAZ_Ny9PIDubdHcndrF2VbQmZbtf5PJvRv612oErD3xa1Thlhbfw
+Content-Type: application/json
+user-roles: caseworker
+Host: dm-store-sprod.service.core-compute-sprod.internal
+proxy=org.asynchttpclient.proxy.ProxyServer@30086b7f
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Content-Length: 2411986
+Content-Type: application/pdf
+Request-Context: appId=cid-v1:8a86fa07-04d8-41f1-9bbd-589eafd37e43
+X-Application-Context: dm-store:dev:27303
+OriginalFileName: 2MB-c.pdf
+Content-Disposition: fileName="2MB-c.pdf"
+data-source: contentURI
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Powered-By: ASP.NET
+Date: Mon, 01 Oct 2018 10:10:35 GMT
+
+body=
+<<<BINARY CONTENT>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<
+11:10:37.166 [TRACE] i.g.h.a.ResponseProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+TX22_DocStore_GetDocumentBinaryByDocumentID: OK 
+=========================
+Session:
+Session(Get Document Binary by Document ID,1,Map(gatling.http.cache.dns -> io.gatling.http.resolver.ShuffleJdkNameResolver@4e92cd30, 348ed3f1-4b1d-453e-8141-12e02215391f -> 1, timestamp.348ed3f1-4b1d-453e-8141-12e02215391f -> 1538388629820, id -> f1f1f2d9-57ec-42fe-b2da-e44d28c17477),1538388629813,20,OK,List(ExitAsapLoopBlock(348ed3f1-4b1d-453e-8141-12e02215391f,io.gatling.core.session.package$RichExpression$$$Lambda$396/1070319462@3288551b,io.gatling.core.action.Exit@503e60eb)),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$458/681088021@121313b)
+=========================
+HTTP request:
+GET https://dm-store-sprod.service.core-compute-sprod.internal/documents/f1f1f2d9-57ec-42fe-b2da-e44d28c17477/binary
+headers=
+Accept: application/json
+ServiceAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjY2RfZ3ciLCJleHAiOjE1Mzg0MDMwMjh9.SzEIAoYWjukQehf6rihNNjWLZ28xOmXF5yXAZ_Ny9PIDubdHcndrF2VbQmZbtf5PJvRv612oErD3xa1Thlhbfw
+Content-Type: application/json
+user-roles: caseworker
+Host: dm-store-sprod.service.core-compute-sprod.internal
+proxy=org.asynchttpclient.proxy.ProxyServer@30086b7f
+=========================
+HTTP response:
+status=
+200 OK
+headers= 
+Content-Length: 2074867
+Content-Type: application/pdf
+Request-Context: appId=cid-v1:8a86fa07-04d8-41f1-9bbd-589eafd37e43
+X-Application-Context: dm-store:dev:27303
+OriginalFileName: 2MB-i.pdf
+Content-Disposition: fileName="2MB-i.pdf"
+data-source: contentURI
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Powered-By: ASP.NET
+Date: Mon, 01 Oct 2018 10:10:36 GMT
+
+body=
+<<<BINARY CONTENT>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<
